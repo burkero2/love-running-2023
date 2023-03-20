@@ -8,7 +8,7 @@ services:
       - "/tmp/postgres/socket:/var/run/postgresql"
  
   psql:
-    image: postgres:15.2
+    image: postgres:14.7
     environment:
       - POSTGRES_PASSWORD=pass1234
       - POSTGRES_USER=codeany
