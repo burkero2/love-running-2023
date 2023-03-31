@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    /* Rules to push footer down to the bottom of the screen */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* Header */
 header {
     background-color: lightcoral;
@@ -13,7 +21,10 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
+    /* Enlarge the main element to push the footer down */
+    flex: 1 0 auto;
 }
+
 
 /* Footer */
 footer {
