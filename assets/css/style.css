@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Wildcard selector, applies styles to all html elements on the page */
 *{
     margin: 0;
@@ -10,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
 }
 
 
